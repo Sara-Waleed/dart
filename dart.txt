@@ -1,0 +1,56 @@
+
+import 'dart:math';
+ 
+void main() {
+ 
+
+//   print(isPrime(1));
+
+  
+  task(2);
+ /// repeatTask(5,2,);
+  
+}
+//***********************************************************
+//  bool isPrime(int number){
+// if(number==0||number==1){
+//   return false;
+// }
+    
+//   for(int i=2;i<=number/2;i++)
+   
+//     if(number%i==0)
+//        return false;
+
+//    return true;
+  
+
+//  }
+
+
+
+
+int repeatTask(int times,int inputs,Function task){
+  
+  var finalresult=0;
+  for(int i=0;i<=times;i++){
+     finalresult=task(inputs);
+    
+  }
+  return finalresult;
+  
+  
+}
+
+double task(double number){
+  double result =sqrt(number) ;
+  return result;
+}
+
+
+
+
+
+
+
+
